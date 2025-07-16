@@ -1,16 +1,16 @@
 
 import './App.css'
-import Header from './common/Header'
 import Footer from './common/Footer'
-import Banner from './home/banner'
+import Header from './common/Header'
+import Home from './pages/Home'
 
 function App() {
 
   return (
     <>
-    <Header/>
-    <Banner/>
-    <Footer/>
+      <Header />
+      <Home />
+      <Footer />   
     </>
   )
 }
