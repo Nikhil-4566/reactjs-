@@ -1,8 +1,13 @@
 
 const Banner = () => {
   return (
-    <div>banner</div>
+    <>
+      <p>Banner</p>
+      <h1>New</h1>
+    </>
   )
 }
+
+
 
 export default Banner
