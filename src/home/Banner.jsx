@@ -4,6 +4,8 @@ const Banner = () => {
     <>
       <p>Banner</p>
       <h1>New</h1>
+      <h1>New</h1>
+      <h1>New</h1>
     </>
   )
 }
