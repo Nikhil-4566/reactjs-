@@ -2,14 +2,14 @@
 import './App.css'
 import Header from './common/Header'
 import Footer from './common/Footer'
-import Banner from './home/banner'
+import Home from './pages/Home'
 
 function App() {
 
   return (
     <>
     <Header/>
-    <Banner/>
+    <Home/>
     <Footer/>
     </>
   )
