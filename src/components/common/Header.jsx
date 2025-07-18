@@ -3,26 +3,39 @@ import { Link } from "react-router-dom"
 const Header = () => {
   return (
     <>
-      <header className="px-[60px] py-[35px] flex items-center justify-between ">
-        <div>
-          <div className="w-full max-w-[173px]">
-            <h1 className="font-Roboto">sdfsdfsfdsfsdfsf</h1>
-            <Link to="/">
-              <img src="/images/logo.png" alt=""  />
-            </Link>
-          </div>
+      <header className="py-[35px] flex items-center justify-between container">
+        <div className="w-full max-w-[173px]">
+          <Link to="/">
+            <img src="/images/logo.png" alt="error" />
+          </Link>
         </div>
-        <div>
-          <nav className="flex items-center justify-between gap-[30px]">
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/howitwork">How It Works</Link>
-            <Link to="/blog">Blog</Link>
-            <Link to="/Contact">Contact</Link>
-          </nav>
-        </div>
-        <div>
-
+          <ul className="flex items-center justify-between gap-[30px]">
+            <li>
+              <Link to="/" className="font-inter text-[18px] font-normal text-black leading-[100%]">Home</Link>
+            </li>
+            <li>
+              <Link to="/about" className="font-inter text-[18px] font-normal text-black leading-[100%]">About</Link>
+            </li>
+            <li>
+              <Link to="/howitwork" className="font-inter text-[18px] font-normal text-black leading-[100%]">How It Works</Link>
+            </li>
+            <li>
+              <Link to="/blog" className="font-inter text-[18px] font-normal text-black leading-[100%]">Blog</Link>
+            </li>
+            <li>
+              <Link to="/Contact" className="font-inter text-[18px] font-normal text-black leading-[100%]">Contact</Link>
+            </li>
+          </ul>
+        <div className="hidden lg:flex items-center justify-between gap-[30px] ">
+          <Link to="/">
+            <img src="/images/uil_user.png" alt="error" />
+          </Link>
+          <Link to="/">
+            <img src="/images/mdi_bell-outline.png" alt="error" />
+          </Link>
+          <Link to="/">
+            <img src="/images/material-symbols_search-rounded.png" alt="error" />
+          </Link>
         </div>
       </header>
     </>
