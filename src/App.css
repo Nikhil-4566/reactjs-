@@ -1,12 +1,19 @@
-@import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import "tailwindcss";
 
-@theme {
+@theme inline{
   --font-inter: "Inter", sans-serif;
+  --color-black: #000000;
+ --color-white: #FFFFFF;
+  --color-lightgray: #555555;
+  --color-gold: #EAA423;
+  --color-darkblue: #3850A5;
+  --color-mediumpurple: #765AFF;
+  --color-dusty-rose: #9C8A8A;
 }
 
 .container{
-   @apply w-full max-w-[1440px] mx-auto px-5 md:px-[60px]
+   @apply w-full max-w-[1440px] mx-auto px-5 lg:px-[60px]
 }
 
 

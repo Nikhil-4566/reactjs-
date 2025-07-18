@@ -23,6 +23,7 @@ import Contact from './pages/Contact'
 import HowItWork from './pages/HowItWork'
 import About from './pages/About'
 import OurMissoin from './pages/OurMissoin'
+import Study from './pages/Study'
 
 function App() {
 
@@ -53,6 +54,7 @@ function App() {
           <Route path='/about' element={<About/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/ourmissoin' element={<OurMissoin/>}/>
+          <Route path='/study' element={<Study/>}/>
         </Routes>
          <Footer/>
       </BrowserRouter>
