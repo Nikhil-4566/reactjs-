@@ -66,7 +66,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="w-full max-w-[147px]">
+          <div className="w-full max-w-[148px]">
             <div>
               <h4 className="font-inter text-[14px] md:text-[18px] font-semibold text-black leading-[130%] mb-[24px] md:mb-[20px]">Support</h4>
               <ul className="">
@@ -92,7 +92,7 @@ const Footer = () => {
       </div>
       <div className="md:border-t border-[#55555533]">
         <div className="!p-[0px] md:!py-[23px] md:!px-[20px] lg:!px-[60px] container flex flex-col-reverse md:flex-row items-center justify-between">
-          <p className="py-[26px] md:py-[0] border-t md:border-0 border-[#55555533] w-full max-w-full md:max-w-[200px] font-inter text-[14px] font-normal text-[#000] leading-[130%] text-center md:text-left">© 2025 CoWorkMate. All rights reserved.</p>
+          <p className="py-[26px] md:py-[0] border-t md:border-0 border-[#55555533] w-full max-w-full  font-inter text-[14px] font-normal text-[#000] leading-[130%] text-center md:text-left">© 2025 CoWorkMate. All rights reserved.</p>
           <div className="pb-[54px] md:pb-[0] w-full max-w-[200px] flex items-center justify-between">
             <Link to="/">
               <img src="/images/ic_baseline-facebook.png" alt="error" />

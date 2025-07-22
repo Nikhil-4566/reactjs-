@@ -11,11 +11,11 @@ const Home = () => {
         <>
             <Banner/>
             <Works/>
+            <Featured/>
+            <WhyChoose/>
             <OurUsers/>
             <FAQ/>
             <Book/>
-            <Featured/>
-            <WhyChoose/>
         </>
     )
 }

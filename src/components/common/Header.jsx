@@ -14,7 +14,7 @@ const Header = () => {
         <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="lg:hidden block z-11">
           <img src={isMenuOpen ? "/images/mage_multiply.png" : "/images/fe_bar (1).png"} alt="menu toggle" className="w-[24px] h-auto"/>
         </button>
-        <ul className={`${isMenuOpen ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'} flex flex-col lg:flex-row gap-6 lg:gap-[30px] p-5 lg:p-0 lg:items-center lg:justify-center fixed lg:relative top-0 right-0 h-full w-full bg-white z-10 transition-all duration-600 ease-in-out lg:translate-x-0 lg:opacity-100`}>
+        <ul className={`${isMenuOpen ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'} flex flex-col lg:flex-row gap-6 lg:gap-[30px] p-5 lg:p-0 pt-10 lg:pt-0 lg:items-center lg:justify-center fixed lg:relative top-0 right-0 h-full w-full bg-white z-10 transition-all duration-600 ease-in-out lg:translate-x-0 lg:opacity-100`}>
           <li>
             <Link to="/" className="font-inter text-[18px] font-normal text-black leading-[100%]">Home</Link>
           </li>
